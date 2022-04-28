@@ -11,7 +11,7 @@ This ensures that even non-square matrices (MxN) will be orthogonalize, and also
 ## How to use?
 - import it:
 ```
-from torchogonal import orthogonlize_module
+from torchogonal.torchogonal import orthogonlize_module
 ```
 
 - When initializing the model run:
