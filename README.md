@@ -9,17 +9,17 @@ This preserves the norm of the input tensor. Since the eigen-value of an orthogo
 This ensures that even non-square matrices (MxN) will be orthogonalize, and also that the orthogonalization will be as close as possible to the current weights.
 
 ## How to use?
-import it:
+- import it:
 ```
 from torchogonal import orthogonlize_module
 ```
 
--When initializing the model run:
+- When initializing the model run:
 ```
 orthogonlize_model(model)
 ```
 **IMPORTANT!** This is an *in-place* function.
--After each optimizer step, run this line again to re-orthogonalize the model:
+- After each optimizer step, run this line again to re-orthogonalize the model:
 ```
 orthogonlize_model(model)
 ```
