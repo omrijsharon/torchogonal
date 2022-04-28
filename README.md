@@ -19,7 +19,10 @@ When initializing the model run:
 orthogonlize_model(model)
 ```
 **IMPORTANT!** This is an *in-place* function.
-
+After each optimizer step, run this line again to re-orthogonalize the model:
+```
+orthogonlize_model(model)
+```
 - Tested on Python 3.8 and Pytorch 1.10.
 The functions used in this repo are basic. This repo should easily work even older versions.
 
