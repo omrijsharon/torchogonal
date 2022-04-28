@@ -18,7 +18,7 @@ from torchogonal import orthogonlize_module
 ```
 orthogonlize_model(model)
 ```
-**IMPORTANT!** This is an *in-place* function.
+***IMPORTANT!*** This is an *in-place* function. This means the function does not return a new model, but it has changed the input model itself. So now 'model' weights are orthogonal.
 - After each optimizer step, run this line again to re-orthogonalize the model:
 ```
 orthogonlize_model(model)
@@ -27,6 +27,11 @@ orthogonlize_model(model)
 ## Tests and requirements
 - Tested on Python 3.8 and Pytorch 1.10.
 The functions used in this repo are basic. This repo should easily work even older versions.
+
+## Issues and future work
+* Even though orthogonilization is extremely important in RNNs, they requiers a different approach of orthogonilzing:
+Dynamical Isometry and a Mean Field Theory of RNNs: Gating Enables Signal Propagation in Recurrent Neural Networks
+
 
 ## Inspired by the papers:
 - Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10,000-Layer Vanilla Convolutional Neural Networks (https://arxiv.org/pdf/1806.05393.pdf)
