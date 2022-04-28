@@ -1,8 +1,8 @@
 # torchogonal
-Promise:
-Make your deep neural network Dynamically Isometric. Say farewell to vanishing and exploding gradients
+Promise: \n
+Make your deep neural network Dynamically Isometric. Say farewell to vanishing and exploding gradients \n
 
-What does this repo acctually do?
+What does this repo acctually do? \n
 It purly makes your model weights 'w' tensor orthogonal (w.t()@w = eye), using SVD (*NOT* using QR Decomposition with Gram-Schmidt, that causes many issues).
 This preserves the norm of the input tensor. Since the eigen-value of an orthogonal matrix is with norm 1- gradients can easily seep even through a very deep network.
 
