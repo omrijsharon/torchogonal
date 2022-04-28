@@ -23,8 +23,8 @@ orthogonlize_model(model)
 ```
 orthogonlize_model(model)
 ```
-The weights will be orthogonalize as close as possible to the changed weights.
-![picture alt](https://raw.githubusercontent.com/omrijsharon/torchogonal/main/uni.png "Title is optional")
+The weights will be orthogonalize as close as possible to the changed weights (paper #2):
+![picture alt](https://raw.githubusercontent.com/omrijsharon/torchogonal/main/uni.png "ProjUNN")
 
 ## Tests and requirements
 - Tested on Python 3.8 and Pytorch 1.10.
