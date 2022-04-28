@@ -33,7 +33,7 @@ The functions used in this repo are basic. This repo should easily work even old
 
 
 ## Inspired by the papers:
-Markup : 1. Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10,000-Layer Vanilla Convolutional Neural Networks (https://arxiv.org/pdf/1806.05393.pdf)
-          2. projUNN: efficient method for training deep networks with unitary matrices (https://arxiv.org/pdf/2203.05483.pdf)
-          3. Dynamical Isometry and a Mean Field Theory of RNNs: Gating Enables Signal Propagation in Recurrent Neural Networks (https://arxiv.org/pdf/1806.05394.pdf)
+1. Dynamical Isometry and a Mean Field Theory of CNNs: How to Train 10,000-Layer Vanilla Convolutional Neural Networks (https://arxiv.org/pdf/1806.05393.pdf)
+2. projUNN: efficient method for training deep networks with unitary matrices (https://arxiv.org/pdf/2203.05483.pdf)
+3. Dynamical Isometry and a Mean Field Theory of RNNs: Gating Enables Signal Propagation in Recurrent Neural Networks (https://arxiv.org/pdf/1806.05394.pdf)
 
