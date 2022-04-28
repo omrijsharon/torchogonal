@@ -29,7 +29,7 @@ orthogonlize_model(model)
 The functions used in this repo are basic. This repo should easily work even older versions.
 
 ## Issues and future work
-* Even though orthogonilization is extremely important in RNNs, they requiers a different approach of orthogonilzing:
+* Even though orthogonilization is extremely important in RNNs, they requiers a different approach of orthogonilzing (paper #3)
 
 
 ## Inspired by the papers:
